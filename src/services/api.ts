@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const api = axios.create({
-  baseURL: "https://tasks-backend-omega.vercel.app/"
+  baseURL: process.env.REACT_APP_BACKEND
 })
 
 export default api
